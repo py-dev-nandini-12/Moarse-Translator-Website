@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Decode{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <h1>Decoding</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <form action="{{url_for('decoding')}}" method="post">
+                <label>Enter your message</label>
+                <input type="text" placeholder="your message" name="message">
+                <input type="submit" value="Decode"/>
+                <p><a href="{{url_for('home')}}">Return to index page</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

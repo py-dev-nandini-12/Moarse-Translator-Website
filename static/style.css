@@ -1,0 +1,30 @@
+.body {
+background-color: #00bfff, #ff4c68, #ef8172);
+color: white;
+}
+
+
+a {
+    color: #ffc107;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+.col-sm-6{
+       align-items: center
+       background-color: ivory;
+
+     }

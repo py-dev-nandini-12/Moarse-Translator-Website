@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Encode{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <h1>Encoding</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <form action="{{url_for('encoding')}}" method="post">
+                <label>Enter your message</label>
+                <input type="text" placeholder="your message" name="user_input"/>
+                <input type="submit" value="Encode"/>
+                <p><a href="{{url_for('home')}}">Return to index page</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
